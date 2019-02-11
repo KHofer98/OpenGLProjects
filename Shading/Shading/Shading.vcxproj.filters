@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\shader frag">
+      <UniqueIdentifier>{0fc66d04-6c8f-4875-b1d2-c530e127f7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader vert">
+      <UniqueIdentifier>{98770912-2f40-4522-b511-e1ecab272963}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="depth.frag">
+      <Filter>Source Files\shader frag</Filter>
+    </None>
+    <None Include="depth.vert">
+      <Filter>Source Files\shader vert</Filter>
+    </None>
+    <None Include="lamp.frag">
+      <Filter>Source Files\shader frag</Filter>
+    </None>
+    <None Include="lamp.vert">
+      <Filter>Source Files\shader vert</Filter>
+    </None>
+    <None Include="shader.frag">
+      <Filter>Source Files\shader frag</Filter>
+    </None>
+    <None Include="shader.vert">
+      <Filter>Source Files\shader vert</Filter>
+    </None>
+    <None Include="display_depth.vert">
+      <Filter>Source Files\shader vert</Filter>
+    </None>
+    <None Include="display_depth.frag">
+      <Filter>Source Files\shader frag</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mysample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
